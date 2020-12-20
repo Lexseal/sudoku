@@ -1,0 +1,3 @@
+/home/lexseal/Documents/sudoku/CMakeFiles/rebuild_cache.dir
+/home/lexseal/Documents/sudoku/CMakeFiles/edit_cache.dir
+/home/lexseal/Documents/sudoku/CMakeFiles/sudoku.dir

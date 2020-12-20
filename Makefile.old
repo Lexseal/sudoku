@@ -1,0 +1,8 @@
+CFLAGS = `pkg-config --cflags opencv4`
+LIBS = `pkg-config --libs opencv4`
+
+all: main.cpp solver.cpp sudokuBoard.cpp solver.hpp sudokuBoard.hpp
+	g++ $(CFLAGS) $(LIBS) -o app main.cpp solver.cpp sudokuBoard.cpp
+
+debug: main.cpp solver.cpp sudokuBoard.cpp solver.hpp sudokuBoard.hpp
+	g++ -g -pg main.cpp solver.cpp sudokuBoard.cpp

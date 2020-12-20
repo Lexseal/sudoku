@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lexseal/Documents/sudoku/main.cpp
+chrono
+-
+solver.hpp
+/home/lexseal/Documents/sudoku/solver.hpp
+
+/home/lexseal/Documents/sudoku/solver.hpp
+string
+-
+sudokuBoard.hpp
+/home/lexseal/Documents/sudoku/sudokuBoard.hpp
+
+/home/lexseal/Documents/sudoku/sudokuBoard.hpp
+vector
+-
+cmath
+-
+iostream
+-
+
