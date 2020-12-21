@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lexseal/Documents/sudoku
+CMAKE_SOURCE_DIR = /home/lexseal/Documents/sudoku/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/lexseal/Documents/sudoku
@@ -58,56 +58,56 @@ include CMakeFiles/sudoku.dir/progress.make
 include CMakeFiles/sudoku.dir/flags.make
 
 CMakeFiles/sudoku.dir/main.cpp.o: CMakeFiles/sudoku.dir/flags.make
-CMakeFiles/sudoku.dir/main.cpp.o: main.cpp
+CMakeFiles/sudoku.dir/main.cpp.o: src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lexseal/Documents/sudoku/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sudoku.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sudoku.dir/main.cpp.o -c /home/lexseal/Documents/sudoku/main.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sudoku.dir/main.cpp.o -c /home/lexseal/Documents/sudoku/src/main.cpp
 
 CMakeFiles/sudoku.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sudoku.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lexseal/Documents/sudoku/main.cpp > CMakeFiles/sudoku.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lexseal/Documents/sudoku/src/main.cpp > CMakeFiles/sudoku.dir/main.cpp.i
 
 CMakeFiles/sudoku.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sudoku.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lexseal/Documents/sudoku/main.cpp -o CMakeFiles/sudoku.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lexseal/Documents/sudoku/src/main.cpp -o CMakeFiles/sudoku.dir/main.cpp.s
 
 CMakeFiles/sudoku.dir/solver.cpp.o: CMakeFiles/sudoku.dir/flags.make
-CMakeFiles/sudoku.dir/solver.cpp.o: solver.cpp
+CMakeFiles/sudoku.dir/solver.cpp.o: src/solver.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lexseal/Documents/sudoku/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sudoku.dir/solver.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sudoku.dir/solver.cpp.o -c /home/lexseal/Documents/sudoku/solver.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sudoku.dir/solver.cpp.o -c /home/lexseal/Documents/sudoku/src/solver.cpp
 
 CMakeFiles/sudoku.dir/solver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sudoku.dir/solver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lexseal/Documents/sudoku/solver.cpp > CMakeFiles/sudoku.dir/solver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lexseal/Documents/sudoku/src/solver.cpp > CMakeFiles/sudoku.dir/solver.cpp.i
 
 CMakeFiles/sudoku.dir/solver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sudoku.dir/solver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lexseal/Documents/sudoku/solver.cpp -o CMakeFiles/sudoku.dir/solver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lexseal/Documents/sudoku/src/solver.cpp -o CMakeFiles/sudoku.dir/solver.cpp.s
 
 CMakeFiles/sudoku.dir/sudokuBoard.cpp.o: CMakeFiles/sudoku.dir/flags.make
-CMakeFiles/sudoku.dir/sudokuBoard.cpp.o: sudokuBoard.cpp
+CMakeFiles/sudoku.dir/sudokuBoard.cpp.o: src/sudokuBoard.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lexseal/Documents/sudoku/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sudoku.dir/sudokuBoard.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sudoku.dir/sudokuBoard.cpp.o -c /home/lexseal/Documents/sudoku/sudokuBoard.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sudoku.dir/sudokuBoard.cpp.o -c /home/lexseal/Documents/sudoku/src/sudokuBoard.cpp
 
 CMakeFiles/sudoku.dir/sudokuBoard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sudoku.dir/sudokuBoard.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lexseal/Documents/sudoku/sudokuBoard.cpp > CMakeFiles/sudoku.dir/sudokuBoard.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lexseal/Documents/sudoku/src/sudokuBoard.cpp > CMakeFiles/sudoku.dir/sudokuBoard.cpp.i
 
 CMakeFiles/sudoku.dir/sudokuBoard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sudoku.dir/sudokuBoard.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lexseal/Documents/sudoku/sudokuBoard.cpp -o CMakeFiles/sudoku.dir/sudokuBoard.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lexseal/Documents/sudoku/src/sudokuBoard.cpp -o CMakeFiles/sudoku.dir/sudokuBoard.cpp.s
 
 CMakeFiles/sudoku.dir/imgToNum.cpp.o: CMakeFiles/sudoku.dir/flags.make
-CMakeFiles/sudoku.dir/imgToNum.cpp.o: imgToNum.cpp
+CMakeFiles/sudoku.dir/imgToNum.cpp.o: src/imgToNum.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lexseal/Documents/sudoku/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sudoku.dir/imgToNum.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sudoku.dir/imgToNum.cpp.o -c /home/lexseal/Documents/sudoku/imgToNum.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sudoku.dir/imgToNum.cpp.o -c /home/lexseal/Documents/sudoku/src/imgToNum.cpp
 
 CMakeFiles/sudoku.dir/imgToNum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sudoku.dir/imgToNum.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lexseal/Documents/sudoku/imgToNum.cpp > CMakeFiles/sudoku.dir/imgToNum.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lexseal/Documents/sudoku/src/imgToNum.cpp > CMakeFiles/sudoku.dir/imgToNum.cpp.i
 
 CMakeFiles/sudoku.dir/imgToNum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sudoku.dir/imgToNum.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lexseal/Documents/sudoku/imgToNum.cpp -o CMakeFiles/sudoku.dir/imgToNum.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lexseal/Documents/sudoku/src/imgToNum.cpp -o CMakeFiles/sudoku.dir/imgToNum.cpp.s
 
 # Object files for target sudoku
 sudoku_OBJECTS = \
@@ -153,6 +153,6 @@ CMakeFiles/sudoku.dir/clean:
 .PHONY : CMakeFiles/sudoku.dir/clean
 
 CMakeFiles/sudoku.dir/depend:
-	cd /home/lexseal/Documents/sudoku && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lexseal/Documents/sudoku /home/lexseal/Documents/sudoku /home/lexseal/Documents/sudoku /home/lexseal/Documents/sudoku /home/lexseal/Documents/sudoku/CMakeFiles/sudoku.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lexseal/Documents/sudoku && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lexseal/Documents/sudoku/src /home/lexseal/Documents/sudoku/src /home/lexseal/Documents/sudoku /home/lexseal/Documents/sudoku /home/lexseal/Documents/sudoku/CMakeFiles/sudoku.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sudoku.dir/depend
 

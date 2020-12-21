@@ -86,11 +86,11 @@ bool SudokuBoard::place(int row, int col, int value) {
     if (colVecs[col][value-1] == true) return false; // verify col
     if (cellVecs[getCellNum(row, col)][value-1] == true) return false; // verify cell
 
+    board[row][col] = value; // set the new value
+
     rowVecs[row][value-1] = true;
     colVecs[col][value-1] = true;
-    cellVecs[getCellNum(row, col)][value-1] = true;
-
-    board[row][col] = value; // set the value
+    cellVecs[getCellNum(row, col)][value-1] = true; // update truth table
 
     return true; // and return true
 }

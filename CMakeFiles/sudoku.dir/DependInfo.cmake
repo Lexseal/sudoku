@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lexseal/Documents/sudoku/imgToNum.cpp" "/home/lexseal/Documents/sudoku/CMakeFiles/sudoku.dir/imgToNum.cpp.o"
-  "/home/lexseal/Documents/sudoku/main.cpp" "/home/lexseal/Documents/sudoku/CMakeFiles/sudoku.dir/main.cpp.o"
-  "/home/lexseal/Documents/sudoku/solver.cpp" "/home/lexseal/Documents/sudoku/CMakeFiles/sudoku.dir/solver.cpp.o"
-  "/home/lexseal/Documents/sudoku/sudokuBoard.cpp" "/home/lexseal/Documents/sudoku/CMakeFiles/sudoku.dir/sudokuBoard.cpp.o"
+  "/home/lexseal/Documents/sudoku/src/imgToNum.cpp" "/home/lexseal/Documents/sudoku/CMakeFiles/sudoku.dir/imgToNum.cpp.o"
+  "/home/lexseal/Documents/sudoku/src/main.cpp" "/home/lexseal/Documents/sudoku/CMakeFiles/sudoku.dir/main.cpp.o"
+  "/home/lexseal/Documents/sudoku/src/solver.cpp" "/home/lexseal/Documents/sudoku/CMakeFiles/sudoku.dir/solver.cpp.o"
+  "/home/lexseal/Documents/sudoku/src/sudokuBoard.cpp" "/home/lexseal/Documents/sudoku/CMakeFiles/sudoku.dir/sudokuBoard.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
