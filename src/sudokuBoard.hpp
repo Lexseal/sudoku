@@ -27,6 +27,7 @@ public:
     ~SudokuBoard() = default;
 
     int get(int row, int col) const;
+    int get(int linearIdx) const;
     const vector<int>& getRow(int row) const;
     const vector<int> getCol(int col) const;
     const vector<int> getCell(int cell) const;

@@ -52,6 +52,10 @@ int SudokuBoard::get(int row, int col) const {
     return board[row][col];
 }
 
+int SudokuBoard::get(int linearIdx) const {
+    return get(linearIdx/size, linearIdx%size);
+}
+
 const vector<int>& SudokuBoard::getRow(int row) const {
     return board[row];
 }
